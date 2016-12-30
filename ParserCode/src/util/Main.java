@@ -14,7 +14,7 @@ Test Code for Library Functions
 public class Main {
     public static void main(String[] args) throws Exception {
         // String encValue = Encryption.RSAencrypt("mypassword");
-        String outPut = WebConnect.sendGet("http://www.environmentallights.com/index.php/api/soap/?wsdl");
+        String outPut = WebConnect.sendGet("http://www.something.com");
 
         // String decValue = Encryption.RSAdecrypt(encValue);
         // System.out.println("RSAPublicKey :" + Encryption.pubKey().toString());
